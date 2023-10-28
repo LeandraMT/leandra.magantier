@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>leandra.magantier</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="resume">
+            <button><a href="./assets/Resume.pdf" target="_blank">Download Resume</a></button>
+        </div>
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+    </div>
+
+    <!--Responsive Design for the navigation bar-->
+    <button class="nav" id="hamburger-menu">
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+    </button>
+
+    <div id="home">
+        <div class="grid-container">
+
+            <div class="grid-item animate-left">
+                <h1>Leandra Magan-Tier</h1>
+            </div>
+
+            <div class="grid-item2 animate-fade">
+                <img src="./img/picture.png" alt="Portrait of myself">
+            </div>
+
+            <div class="grid-item3 animate-right">
+                <p>Full Stack Developer</p>
+            </div>
+
+            <div class="grid-item4 animate-scale">
+                <p>With your ideas and my skills we transform code<br> <span>together</span></p>
+                <!--<img src="./img/team-work.png" alt="Icon of team working together" />-->
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <h1 class="heading-about">About Me</h1>
+        <hr />
+
+        <div class="grid show-animation">
+            <div class="grid_item intro animate">
+                <img src="./img/girl-sitting-laptop.png" alt="3D icon girl">
+                <p>Embarked on this journey earlier this year as taking challenges means to be confident,
+                    determined and self-motivated. Knowing that the world of technology would deepen
+                    the knowledge and skills.
+                </p>
+            </div>
+
+            <div class="grid_item intro2 animate">
+                <img src="./img/conversation-laptop.png" alt="3D icon a boy and a girl having a conversation">
+                <p>Connect with people who are like-minded individuals that share common goals, co-create
+                    and implement innovative concepts to contribute to the dynamic growth of a company
+                    as well as contribute to individuals' personal goals.
+                </p>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <img src="./img/girl-sitting-laptop.png" alt="3D icon girl" class="about-icons">
+            <p class="intro-1">
+                Embarked on this journey earlier this year as taking challenges means to be confident,
+                determined and self-motivated. Knowing that the world of technology would deepen
+                the knowledge and skills.
+            </p>
+            <br>
+            <img src="./img/conversation-laptop.png" alt="3D icon a boy and a girl having a conversation"
+                class="about-icons">
+            <p>
+                Connect with people who are like-minded individuals that share common goals, co-create
+                and implement innovative concepts to contribute to the dynamic growth of a company
+                as well as contribute to individuals' personal goals.
+            </p>
+        </div>
+    </div>
+
+
+    <div id="projects">
+        <div class="title-container">
+            <h1>PROJECTS</h1>
+        </div>
+
+        <div class="grid-container-projects">
+
+            <div class="project position">
+                <img src="./img/projects-assets/MEET.png" alt="Meet">
+                <h1>Meet Application</h1>
+                <p>A serverless, progressive web application with React using Test-Driven Development
+                    technique. This application uses the Google Calendar API that fetches upcoming events.
+                </p>
+                <img src="./img/icons/javascript.png" alt="JavaScript icon" class="dev-icons">
+                <img src="./img/icons/react-native.png" alt="React icon" class="dev-icons">
+                <img src="./img/icons//aws.svg" alt="Amazon Web Services icon" class="dev-icons">
+                <img src="./img/icons/awslambda.svg" alt="Amazon Web Services Lamda icon" class="dev-icons">
+                <img src="./img/icons/google-calendar.svg" alt="Google Calendar icon" class="dev-icons">
+                <img src="./img/icons/jest.png" alt="Jest Testing Library icon" class="dev-icons">
+                <div class="buttons">
+                    <button class="project-btn"><a href="https://github.com/LeandraMT/meet_app">View Source
+                            Code</a></button>
+                    <button class="project-btn"><a href="https://leandramt.github.io/meet_app/">View
+                            Project</a></button>
+                </div>
+            </div>
+
+            <div class="project position1">
+                <img src="./img/projects-assets/POKEDEX.png" alt="Pokédex">
+                <h1>Pokédex Application</h1>
+                <p>A small web application with HTML, CSS and JavaScript that loads data from an external API and
+                    enables the viewing of data points in detail.
+                </p>
+                <img src="./img/icons/html.png" alt="HTML icon" class="dev-icons">
+                <img src="./img/icons/css.png" alt="CSS icon" class="dev-icons">
+                <img src="./img/icons/javascript.png" alt="JavaScript icon" class="dev-icons">
+                <div class="buttons">
+                    <button class="project-btn"><a href="https://github.com/LeandraMT/pokedex-app/tree/master">View
+                            Source Code</a></button>
+                    <button class="project-btn"><a href="https://app-pokedexx.netlify.app">View Project</a></button>
+                </div>
+            </div>
+
+            <div class="project position2">
+                <img src="./img/projects-assets/LEMOOVIE.png" alt="LeMoovie">
+                <h1>LeMoovie Application</h1>
+                <p>A movies web application which provides users access to information about movies,
+                    directors and genre. This project containes the MERN stack, including a own well-
+                    designed REST API.
+                </p>
+                <img src="./img/icons/nodejs.png" alt="Nodejs icon" class="dev-icons">
+                <img src="./img/icons/express-js.svg" alt="Express.js icon" class="dev-icons">
+                <img src="./img/icons/react-native.png" alt="React icon" class="dev-icons">
+                <img src="./img/icons/javascript.png" alt="JavaScript icon" class="dev-icons">
+                <img src="./img/icons/mongodb.png" alt="MongoDB icon" class="dev-icons">
+                <img src="./img/icons/bootstrap.png" alt="Bootstrap icon" class="dev-icons">
+                <div class="buttons">
+                    <button class="project-btn"><a href="https://github.com/LeandraMT/leMoovie-server">View
+                            Server-Side Code</a></button>
+                    <button class="project-btn"><a href="https://github.com/LeandraMT/leMoovie-server">View
+                            Client-Side code</a></button>
+                    <button class="project-btn"><a href="./img/projects-assets/LeMoovie Case Study.pdf">View Case
+                            Study</a></button>
+                </div>
+            </div>
+
+            <div class="project position3">
+                <img src="./img/projects-assets/THECHATROOM.png" alt="TheChatRoom">
+                <h1>TheChatRoom Application</h1>
+                <p>A chat app for mobile devices using React Native. The app will provide users with a chat
+                    interface and options to share images and their location.
+                </p>
+                <img src="./img/icons/react-native.png" alt="React Native icon" class="dev-icons">
+                <img src="./img/icons/expo.svg" alt="Expo icon" class="dev-icons">
+                <img src="./img/icons/firebase.svg" alt="Firebase icon" class="dev-icons">
+                <div class="buttons">
+                    <button class="project-btn"><a href="https://github.com/LeandraMT/TheChatRoom">View Source
+                            Code</a></button>
+                    <button class="project-btn"><a href="./img/projects-assets/TheChatRoom-video.mp4">View
+                            Project</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="contact-container">
+            <div class="contact-heading">
+                <p>Let's Connect!</p>
+            </div>
+
+            <div class="contact">
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <label for="name">Name:</label>
+                    <input type="text" name="user_name">
+                    <label for="Email">Email:</label>
+                    <input type="email" name="user_email">
+                    <label for="subject">Your Message:</label>
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Send" class="send-btn">
+                </form>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/leandra-magantier/" target="_blank">
+                    <img src="./img/icons/linkedin.svg" alt="LinkedIn icon">
+                </a>
+                <a href="https://github.com/LeandraMT" target="_blank">
+                    <img src="./img/icons/github.svg" alt="GitHub icon" width="50">
+                </a>
+                <a href="https://twitter.com/devleandra" target="_blank">
+                    <img src="./img/icons/x.png" alt="X formerly twitter icon" width="60">
+                </a>
+                <a href="https://www.facebook.com/leandra.magantier" target="_blank">
+                    <img src="./img/icons/facebook.svg" alt="Facebook icon">
+                </a>
+                <a href="https://discord.com/channels/@leandra.magantier" target="_blank"></a>
+                <img src="./img/icons/discord.svg" alt="Discord icon">
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('VA37EmrRcTtPNQIBc');
+        })();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
