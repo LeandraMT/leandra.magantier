@@ -9,10 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const animateAbout = document.querySelector('.grid');
     const aboutSection = document.getElementById('about');
     const projectSection = document.getElementById('projects');
-    const devTools = document.getElementById('dev-tools');
 
     const parallaxOffsetStart = 223;
-    const devToolsOffset = 2306;
     //const devToolsEndOffset = 2561;
 
     const projects = document.querySelectorAll('.project');
@@ -45,12 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
             slideRight.classList.remove('active');
         }
 
-        if (scrollPosition > 50) {
+        /*if (scrollPosition > 50) {
             fadeImage.classList.add('fade-out');
         }
         else {
             fadeImage.classList.remove('fade-out');
-        }
+        }*/
 
         if (scrollPosition > 200) {
             scale.classList.add('active');
@@ -68,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Offset: ' + offset);
 
         const startOffset = 558;
-        const endOffset = 1255;
+        const endOffset = 1761//1255;
 
         const projectsOffset = 1229;//1129;
         const projectEndOffset = 2859;
