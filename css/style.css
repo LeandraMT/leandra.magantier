@@ -291,7 +291,6 @@ hr {
 
 
 
-
 /* DIV - PROJECTS SECTION */
 #projects {
     position: relative;
@@ -373,6 +372,9 @@ hr {
 .position3 {
     height: 620px;
 }
+.position4 {
+    height: 650px;
+}
 .position .dev-icons {
     margin-top: 5%;
     width: 50px;
@@ -381,7 +383,8 @@ hr {
     margin-top: 5%;
     width: 50px;
 }
-.position2 .dev-icons {
+.position2 .dev-icons,
+.position4 .dev-icons {
     margin-top: 5%;
     width: 50px;
 }

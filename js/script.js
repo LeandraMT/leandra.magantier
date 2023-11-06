@@ -19,13 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
         '#e5e5e5',
         '#eaf6f6',
         '#f4eeff',
-        '#ebd5d5'
+        '#ebd5d5',
+        '#e3e3e3'
     ]
     const projectBgColors = [
         '#5c5470',
         '#3e4a61',
         '#352f44',
-        '#424141'
+        '#424141',
+        '#455d7a'
     ];
 
     let prevOffset = window.scrollY;
@@ -66,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Offset: ' + offset);
 
         const startOffset = 558;
-        const endOffset = 1761//1255;
+        const endOffset = 1255;
 
         const projectsOffset = 1229;//1129;
         const projectEndOffset = 2859;
@@ -93,14 +95,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // SCROLL ANIMATION ABOUT SECTION
-        if (offset >= startOffset && offset <= endOffset) {
+        /*if (offset >= startOffset && offset <= endOffset) {
             animateAbout.classList.add('show-animation');
         }
         else {
             animateAbout.classList.remove('show-animation');
         }
 
-        prevOffset = offset;
+    prevOffset = offset;*/
     };
 
 

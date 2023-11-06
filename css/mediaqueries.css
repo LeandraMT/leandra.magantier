@@ -1259,13 +1259,14 @@
     .heading-facts {
         background-color: var(--bgColor2);
         width: 48vw;
-        height: 48vh;
+        height: auto;
         border-radius: 10px;
         box-shadow: 8px 8px 15px rgba(168, 116, 227, 0.4);
     }
     
     .heading-facts .facts-items {
         font-size: 18px;
+        margin: 10px;
     }
     
     .facts-items p{
