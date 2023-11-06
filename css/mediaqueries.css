@@ -175,6 +175,19 @@
         padding: 10px 4px;
     }
 
+    .position {
+        height: 760px;
+    }
+    .position2 {
+        height: 850px;
+    }
+    .position1,
+    .position3 {
+        height: 690px;
+    }
+    .position4 {
+        height: 720px;
+    }
 
     .position .dev-icons {
         margin-top: 5%;
@@ -189,6 +202,10 @@
         width: 34px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 34px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 34px;
     }
@@ -215,7 +232,7 @@
 
 @media (min-width: 376px) and (max-width: 475px) {
     #home {
-        height: 90vh;
+        height: 60vh;
     }
    .grid-container {
         display: flex;
@@ -365,6 +382,10 @@
         height: 580px;
     }
 
+    .position4 {
+        height: 590px;
+    }
+
     .position2 .project-btn {
         display: flex;
         flex-direction: column;
@@ -384,6 +405,10 @@
         width: 34px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 34px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 34px;
     }
@@ -766,6 +791,10 @@
         height: 620px;
     }
 
+    .position4 {
+        height: 670px;
+    }
+
     .position .dev-icons {
         margin-top: 5%;
         width: 40px;
@@ -779,6 +808,10 @@
         width: 40px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 40px;
     }
@@ -991,6 +1024,10 @@
         height: 650px;
     }
 
+    .position4 {
+        height: 780px;
+    }
+
     .position .dev-icons {
         margin-top: 5%;
         width: 40px;
@@ -1004,6 +1041,10 @@
         width: 40px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 40px;
     }
@@ -1178,6 +1219,10 @@
         height: 650px;
     }
 
+    .position4 {
+        height: 780px;
+    }
+
     .position .dev-icons {
         margin-top: 5%;
         width: 40px;
@@ -1191,6 +1236,10 @@
         width: 40px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 40px;
     }
@@ -1361,6 +1410,10 @@
         height: 650px;
     }
 
+    .position4 {
+        height: 820px;
+    }
+
     .position .dev-icons {
         margin-top: 5%;
         width: 40px;
@@ -1374,6 +1427,10 @@
         width: 40px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 40px;
     }
@@ -1555,6 +1612,195 @@
         width: 40px;
     }
     .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .dev-icons {
+        margin: 30px;
+    }
+
+    /* contact section */
+    #contact {
+        height: auto;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+    .resume > button {
+        width: 15%;
+    }
+
+    nav {
+        width: 40vw;
+    }
+
+    .grid-item {
+        font-size: 60px;
+    }
+
+    .grid-item2 > img {
+        width: 160px;
+    }
+
+    .grid-item3 {
+        font-size: 28px;
+    }
+
+    /* about section */
+    #about {
+        height: 130vh;
+    }
+    
+    .heading-about {
+        overflow: hidden;
+        font-size: 50px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .heading-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .heading-container > img {
+        margin: 20px;
+        border-radius: 100%;
+    }
+    
+    .heading-facts > h1 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+    
+    .heading-facts {
+        background-color: var(--bgColor2);
+        width: 48vw;
+        height: 36vh;
+        border-radius: 10px;
+        box-shadow: 8px 8px 15px rgba(168, 116, 227, 0.4);
+    }
+    
+    .heading-facts .facts-items {
+        font-size: 21px;
+    }
+    
+    .facts-items p{
+        padding-top: 11px;
+        padding-left: 13px;
+    }
+    
+    .facts-items > p > img {
+        padding-right: 2px;
+    }
+    
+    .heading-grid {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heading-grid_item {
+        background-color: var(--bgColor2);
+        width: 70vw;
+        height: auto;
+        border-radius: 10px;
+        margin: 0 auto;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    .heading-grid_item p {
+        margin: 10px;
+        font-size: 23px;
+        line-height: 28px;
+    }
+    
+    .heading-grid_item img {
+        margin: 8px;
+    }
+
+    /* projects section */
+    #projects {
+        position: relative;
+        height: auto;
+        padding: 10px;
+    }
+
+    .title-container h1 {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 30px;
+    }
+
+    .grid-container-projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin: 80px;
+    }
+
+    .project {
+        padding: 25px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .project h1 {
+        font-size: 34px;
+    }
+
+    .project p {
+        font-size: 18px;
+    }
+
+    .project-btn {
+        font-size: 16px;
+        padding: 10px 6px;
+    }
+
+    .position {
+        height: 740px;
+    }
+
+    .position2 {
+        height: 800px;
+    }
+
+    .position1 {
+        height: 620px;
+    }
+
+    .position3 {
+        height: 650px;
+    }
+
+    .position .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position1 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position2 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position3 .dev-icons {
+        margin-top: 5%;
+        width: 40px;
+    }
+    .position4 .dev-icons {
         margin-top: 5%;
         width: 40px;
     }
