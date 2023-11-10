@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
         this.contact_number.value = Math.random() * 10000 | 0;
         emailjs.sendForm('contact_service', 'contact_form_template', this)
             .then(function () {
-                console.log('Success!');
+                alert('I have received your message succesfully. I will be in touch soon!');
             }, function (error) {
                 alert('Something went wrong', error);
             });

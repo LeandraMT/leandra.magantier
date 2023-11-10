@@ -261,6 +261,9 @@
     }
 
     /* about section */
+    #about {
+        height: 100vh;
+    }
     .heading-about {
         font-size: 44px;
         margin: 10px;
@@ -383,7 +386,7 @@
     }
 
     .position4 {
-        height: 590px;
+        height: 610px;
     }
 
     .position2 .project-btn {
@@ -413,7 +416,7 @@
         width: 34px;
     }
     .dev-icons {
-        margin: 20px;
+        margin: 13px;
     }
 
     /* contact section */
@@ -442,7 +445,7 @@
 
 @media (min-width: 476px) and (max-width: 610px) {
     #home {
-        height: 90vh;
+        height: 55vh;
     }
     .grid-container {
         display: flex;
@@ -463,7 +466,7 @@
    }
 
    .grid-item4 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .grid-item4 > p > span {
@@ -615,7 +618,7 @@
         width: 40px;
     }
     .dev-icons {
-        margin: 30px;
+        margin: 15px;
     }
 
     /* contact section */
@@ -643,6 +646,9 @@
 }
 
 @media (min-width: 611px) and (max-width: 767px) {
+    #home {
+        height: 60vh;
+    }
     .grid-container {
         display: flex;
         flex-direction: column;
@@ -779,16 +785,16 @@
     }
 
     .position {
-        height: 740px;
+        height: 650px;
     }
 
     .position2 {
-        height: 780px;
+        height: 680px;
     }
 
     .position1,
     .position3 {
-        height: 620px;
+        height: 590px;
     }
 
     .position4 {
@@ -816,7 +822,7 @@
         width: 40px;
     }
     .dev-icons {
-        margin: 30px;
+        margin: 15px;
     }
 
     /* contact section */
@@ -854,7 +860,7 @@
     }
 
     #home {
-        height: 90vh;
+        height: 75vh;
     }
 
     .grid-container {
@@ -863,10 +869,6 @@
 
     .grid-item {
         font-size: 40px;
-    }
-
-    .grid-item2 > img {
-        width: 200px;
     }
 
     .grid-item2 {
@@ -891,7 +893,7 @@
 
     /* about section */
     #about {
-        height: 130vh;
+        height: 110vh;
     }
 
     .heading-about {
@@ -1025,7 +1027,7 @@
     }
 
     .position4 {
-        height: 780px;
+        height: 720px;
     }
 
     .position .dev-icons {
@@ -1049,7 +1051,7 @@
         width: 40px;
     }
     .dev-icons {
-        margin: 30px;
+        margin: 20px;
     }
 
     /* contact section */
